@@ -11,11 +11,7 @@ import React from 'react';
 import {StyleSheet, Text} from 'react-native';
 
 function App() {
-  return React.createElement(
-    Text,
-    {style: styles.description},
-    'Search for houses to buy!',
-  );
+  return <Text style={styles.description}>Search for Houses to Buy!</Text>
 }
 
 export default App;
